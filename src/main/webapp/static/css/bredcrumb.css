@@ -1,0 +1,41 @@
+.brdcrmbar{
+	background: #f8f6f6;
+	display: block;
+	height: 40px;
+	line-height: 22.38886070251465px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 60px;
+	padding-left: 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+}
+
+.help-brd{
+	padding:10px;
+	margin-left:75px;
+}
+
+.breadcrumb>li+li:before {
+	padding: 0 5px;
+	color: #47c1a8;
+	content: "\f0da" !important;
+}
+
+.breadcrumb .active:before{
+	content: initial !important;
+}
+
+.breadcrumb .brdarrow{
+	color: #47c1a8;
+}
+
+.breadcrumb a{
+	color: #47c1a8;
+}
+
+.breadcrumb>.active {
+	color: #0b0a05;
+}

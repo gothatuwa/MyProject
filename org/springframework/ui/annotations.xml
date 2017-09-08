@@ -1,0 +1,5 @@
+<root>
+    <item name='org.springframework.ui.ModelMap org.springframework.ui.ModelMap addAttribute(java.lang.String, java.lang.Object)'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

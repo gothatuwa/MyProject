@@ -1,0 +1,55 @@
+
+html{
+	background-color:#2F2F2F;
+}
+
+body, #mainWrapper {
+-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    background: url("../img/background.jpg") no-repeat center center fixed;;
+}
+
+body, #mainWrapper, .form-control{
+	font-size:12px!important;
+}
+
+.alert {
+    padding: 10px !important;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center !important;
+}
+
+#mainWrapper {
+	/*height: 720px; Without explicit px values, % in children's does not work*/
+	height: 100vh; /*with Viewport-Percentage, we can handles all devices screens  */
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.login-container {
+	margin-top: 100px;
+	background-color: floralwhite;
+	width: 34%;
+	left: 33%;
+	position: absolute;
+}
+
+.login-card {
+    width: 80%;
+    margin: auto;
+}
+.login-form {
+    padding: 10%;
+}
+
+.logo_img{
+	margin: 0px auto;
+    display: block;
+    width: 35%;
+	}
+}

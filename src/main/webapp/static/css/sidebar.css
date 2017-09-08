@@ -1,0 +1,56 @@
+/*-------------SIDEBAR STYLING-----------------*/
+
+#sidebar-wrapper{
+	background-color:#35455c; 
+	margin-top: 60px;
+	width:200px;
+}
+
+.logo {
+	background:no-repeat url(../images/logo.png) 80px 15px; 
+	width:260px; 
+	height:60px;
+} 
+
+.accordion{
+	margin-top:20px;
+}
+
+.accordion-group{
+	border:none;
+}
+
+.accordion-inner {
+	padding: 10px 0px; 
+	/* border-top: 1px solid #000000; */
+}
+
+.sidebar-nav{
+	width: 200px;
+}
+
+.glyphicon-position{
+	font-size: 16px;
+	width: 32px;
+}
+
+.accordion-toggle-hover:hover{
+	background-color: #212936;
+}
+
+.menuheader-sidebar {
+	font-size: 13px;
+	color: #dbdbdb;
+}
+
+.accordion-body-sidebar{
+	background-color: #212936;
+}
+
+.accordion-heading a.active{
+	background-color: #212936;
+}
+
+#wrapper {
+	padding-left: 200px;
+}

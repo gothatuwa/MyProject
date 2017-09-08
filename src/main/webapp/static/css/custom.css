@@ -1,0 +1,41 @@
+/* Layout styles are below */
+@import url("bootstrap.min.css");
+@import url("styleAdEx.css");
+@import url("font.css");
+@import url("topbar.css");
+@import url("simple-sidebar.css");
+@import url("sidebar.css");
+@import url("bredcrumb.css");
+@import url("bootstrap-switch.min.css");
+@import url("datepicker.css");
+@import url("pnotify.custom.min.css");
+
+@import url("font-styles.css");
+/*@import url("organization-level.css");*/
+
+
+/*@import url("../fonts/font-awesome/css/font-awesome.css");*/
+@import url("font-awesome-4.2.0/css/font-awesome.css");
+
+@import url("style.css");
+
+@import url("common-style.css");
+/* Add pagename.css files below */
+@import url("media-query.css");
+/* @import url("other-page-specific.css"); */
+@import url("index.css");
+/*@import url("course_details.css");*/
+
+/* Add pagename.css files above */
+
+@import url("common-margins-paddings.css");
+@import url("browser-specific.css");
+
+
+/*Chosen Style  - multiple select*/
+@import url("chosen.css");
+
+
+
+
+

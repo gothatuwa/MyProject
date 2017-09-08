@@ -1,0 +1,99 @@
+
+@CHARSET "UTF-8";
+
+
+.button-next, .finish { float: right; }
+.button-back, .button-next, .finish {
+	 cursor: pointer;  text-decoration: none;font-family: 'Lato' !important;
+}
+
+.step {
+	clear: left; 
+	-khtml-border-radius: 3px; -moz-border-radius: 3px; -opera-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
+}
+.step label { color: #5a6673; display: block;}
+.step legend { color: #49586e;  padding: 0 2px 3px 2px; margin-top: 10px; }
+.step input, .step textarea, .step select { margin-left: 7px; }
+
+.error-image { background: #f8f8f8 url('../images/error.png') no-repeat right top !important; }
+
+.stepy-titles { list-style: none; margin: 0; padding: 0; width: 100%; }
+.stepy-titles li { color: #B6B6BE; cursor: pointer;  float: left; padding: 10px 15px; border:1px solid #B6B6BE;}
+.stepy-titles li span { display: block; }
+.stepy-titles .current-step { color: #369; cursor: auto; 
+	border: none;
+	background: #65CEA7!important;
+	color: #fff;
+}
+.stepy-titles li div{ font-size:15px;}
+
+/*** Optionaly (jQuery Validate) ***/
+
+.error { background-color: #FAF4F4; }
+
+label.error { background: url('../images/alert.png') no-repeat 0 5px; color: #DE5130; display: block; float: left; margin: 3px 3px 0 10px; padding-left: 21px; padding-top: 2px; }
+
+.stepy-tab ul{ border-bottom:#ccc 1px solid; padding-left:10px;}
+.stepy-tab ul li.current-step{ border-left:#ccc 1px solid; border-top:#ccc 1px solid; border-right:#ccc 1px solid; border-bottom:#fff 1px solid; position:relative; top:1px;  }
+
+.block-tabby ul { padding-left:10px;}
+.block-tabby ul li.current-step{ background:#f8f8f8; }
+
+
+body { font-size: 10px }
+
+.stepy-header { list-style: none; padding: 0; width: 724px }
+  .stepy-header li { cursor: pointer; float: left; padding: 10px }
+    .stepy-header li.stepy-error { background: url('../demo/img/error.png') no-repeat right top }
+    .stepy-header li div { color: #7a7676; font: bold 2.8em verdana;  font-size: 18px; }
+    .stepy-header li.stepy-active div { color: #fff; cursor: auto }
+    .stepy-header li span { color: #7a7676; font-size: 12px; }
+    .stepy-header li.stepy-active span { color: #fff }
+
+.stepy-step { border: 1px solid #BBB; clear: left; padding: 15px 20px;  -khtml-border-radius: 3px; -moz-border-radius: 3px; -opera-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px }
+  .stepy-step legend { color: #4080BF;
+      font: bold 1.8em arial;
+      letter-spacing: .7px;
+      padding: 0px 2px 3px 3px;
+      margin-top: -8px;
+      float: left;
+      display: none;
+  }
+
+
+  .stepy-step select { height: 34px; padding-top: 5px }
+
+  .stepy-step textarea { height: 100px }
+
+  .stepy-navigator { height: 33px; margin-top: 20px }
+    .button-back { float: left }
+
+    .button-next,
+    .stepy-navigator input[type="submit"] { float: right }
+
+    .button-back,
+    .button-next,
+    .stepy-navigator input[type="submit"] { border: 1px solid #CCC; color: #7F0055; cursor: pointer; padding: 7px 15px 8px; text-decoration: none; -khtml-border-radius: 3px; -moz-border-radius: 3px; -opera-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px }
+
+    .stepy-navigator input[type="submit"] { background-color: transparent; border-color: #CCC; margin-bottom: 0; padding: 7px 15px 24px; width: 90px }
+
+    .button-back:hover,
+    .button-next:hover,
+    .stepy-navigator input[type="submit"]:hover { border-color: #BBB; color: #B07 }
+
+
+    .stepy-header li{
+        cursor: pointer;
+        float: left;
+        padding: 10px;
+        border: none;
+        color: #fff;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        font-size: 12px;
+        -webkit-border-radius: 5px;
+    }
+
+    .stepy-active{
+        background: #65CEA7!important;
+    }

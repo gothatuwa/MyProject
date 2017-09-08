@@ -1,0 +1,88 @@
+
+.form-signin .btn-login {
+	font-size: 15px;
+}
+
+/*common style 576 form-control important*/
+.form-signin input[type="text"], .form-signin input[type="password"]{
+	border-radius: 5px !important;
+	-webkit-border-radius: 5px !important;
+}
+
+/*common style 155 form-control padding important*/
+.form-signin .form-control {
+	padding: 10px !important;
+}
+
+/*boostrap min css 5 position absolute margin-left -20*/
+.checkbox input[type=checkbox] {
+	position: relative;
+	margin-left: 0px;
+}
+
+/*common style h1 color and size important*/
+.sign-title {
+	font-size: 24px !important;
+	color: #fff !important;
+}
+
+/*placeholder css*/
+.input {
+  display: block;
+}
+.input span {
+  position: absolute;
+  z-index: 1;
+  cursor: text;
+  pointer-events: none;
+  color: #999;
+  /* Input padding + input border */
+  padding: 9px;
+  /* Firefox does not respond well to different line heights. Use padding instead. */
+  line-height: 17px;
+  /* This gives a little gap between the cursor and the label */
+  margin-left: 2px;
+}
+.input input, .input textarea, .input select {
+  z-index: 0;
+  padding: 6px;
+  margin: 0;
+  font: inherit;
+  line-height: 17px;
+}
+.input select {
+  padding: 5px;
+  /* Unfortunately selects don't respond well to padding. They need an explicit height. */
+  height: 34px;
+}
+
+.sample-class {
+	display: block;
+	width: 100%;
+	height: 34px !important;
+	padding: 3px 12px;
+	font-size: 13px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	box-shadow: none;
+}
+
+:focus {
+	outline: none;
+	border: 1px solid #ccc !important;
+}
+
+.alert {
+padding: 8px !important;
+margin: 10px !important;
+border: 1px solid transparent;
+border-radius: 4px !important;
+}
+
+.alert-dismissable, .alert-dismissible {
+padding-right: 0px !important; 
+}

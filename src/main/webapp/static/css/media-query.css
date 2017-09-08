@@ -1,0 +1,641 @@
+@media (min-width: 1024px) and (max-width: 1390px){
+
+    .topbariconImg{
+        width: 218px;
+    }
+
+    .displaynone_678screen{
+        display: block;
+    }
+	
+	.dashboard_items {
+	  font-size: 30px;
+	  font-weight: bold;
+	  text-align: center;
+	}
+	
+	.imagePreview2 {
+  height: 170px;
+  width: 171px;
+  background-position: center center;
+  background-size: cover;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 57px;
+  margin-bottom: 12px;
+}
+
+}
+
+@media (min-width: 1920px){
+.search-textbox {
+  width: 94%;
+}
+	
+.labels_add{
+	width:3%;
+}
+	
+.labels_add2{
+	width:8%;
+}
+
+    .topbariconImg{
+         width: 193px;
+    }
+
+}
+
+@media (max-width: 1257px){
+		.scrollxonly {
+			overflow-x: scroll !important;
+			overflow-y: hidden;
+			}
+
+}
+
+@media (max-width: 993px){
+    
+	.search-box-gap-fix-mq{
+		margin-top:10px;
+	}
+	
+	.form-width-mq{
+		width:100%;
+	}
+	
+	li.form-next-step {
+		margin: 0px 5px 5px 5px;
+		  max-width: 110px;
+	}
+	
+	/*class room details page top filters*/
+	.main-search-box-mq{
+		width:50%
+	}
+	.other-search-box-mq{
+		width:25%;
+	}
+	
+	/*evaluation process page*/
+	.input-group.bootstrap-touchspin {
+		width: 50%;
+	}
+	
+	/*batch page*/
+	.course-structure-description {
+		width: 90%;
+		overflow: hidden;
+		height: 20px;
+	}
+	
+	/*scroll table width*/
+	div.dataTables_wrapper {
+		width: 140%;
+	}
+	
+	/*	.col-sm-1 {
+	width: 10.333333% !important;
+	}*/
+	
+		.button_fix{
+	margin-bottom: 10px !important;	
+	}
+	
+	.search-textbox {
+	width: 93%;
+	}
+	
+	.main-search-box-mq {
+	width: 50%;
+	margin-bottom: 5px;
+	}
+	
+	.scrollxonly {
+	overflow-x: scroll !important;
+	overflow-y: hidden;
+	}
+	
+	div.dataTables_wrapper {
+	width: 100% !important;
+	}
+	
+	.active_fix_label{
+		width: 50px;
+        padding-left: 8px;
+	}
+	
+	.period_amount_label{
+	 margin-left: 40px;	
+	}
+	
+	.tab_fix_personal_course
+	{
+		padding-left: 0px !important;
+		font-size: 13px !important;
+		margin-left: -9px;
+		text-align: center !important;
+	}
+	
+	.tab_fix_personal_course_sub
+	{
+		padding-left: 0px !important;
+		font-size: 12px;
+		margin-left: -9px;
+		text-align: center;
+	}
+	
+	.text_box_fix_evaluation{
+		padding-left:15px;
+		padding-right: 15px;
+	}
+	
+	.text_box_left_fix_evaluation{
+		padding-right: 15px;
+	}
+	
+	.leftbox{
+		width:100%;
+	}
+	
+	.rightbox {
+		width:100%;
+	}
+	
+	.small_screen_margin
+	{
+	  margin-top: 13px;	
+	}
+	
+	.adv-table table.display thead th {
+	  border-bottom: 1px solid #DDDDDD;
+	  padding: 18px;
+	}
+	
+
+		span.pagebanner{
+  margin: -16px 0 0 0px;
+   }
+	
+	.labels_add2{
+	width:8%;
+}
+	
+	.addmargin{
+	padding-left:11px;	
+	}
+	
+	.add_button_fix_low
+	{
+	margin-top:0px;
+	}
+	
+    .padding_fix_attendance{
+	  padding-left:0px !important;
+	}
+	
+	.margin_fix_attendance{
+	  margin-right:0px !important;
+	}
+	
+	.padding_fix_attendance_right{
+	  padding-right:0px !important;
+	}
+    
+    .padding-md-sm-left0{
+        padding-left:0px;
+    }
+    
+    .padding-md-sm-right0{
+        padding-right:0px;
+    }
+  
+}
+
+@media (max-width: 767px){
+
+	#wrapper {
+		padding-left: 0;
+	}
+
+	#wrapper.active #sidebar-wrapper {
+		left: 280px;
+		width: 200px;
+		transition: all 0.4s ease 0s;
+	}
+
+	#wrapper.active {
+		position: relative;
+		left: 194px;
+	}
+
+
+	
+	.pull-fix-inputbox{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	
+		.topbar_left{
+	  width:40% !important;	
+	}
+	
+	.topbar_right{
+	  width:40% !important;	
+	}
+
+
+}
+
+@media (min-width:768px) and (max-device-width : 1023px){
+
+	/*.col-sm-1 {
+	width: 10.333333% !important;
+	}	*/
+	
+		.button_fix{
+	margin-bottom: 10px !important;	
+	}
+
+	
+	.main-search-box-mq {
+	width: 50%;
+	margin-bottom: 5px;
+	}
+	
+	.scrollxonly {
+	overflow-x: scroll !important;
+	overflow-y: hidden;
+	}
+	
+	div.dataTables_wrapper {
+	width: 100% !important;
+	}
+	
+	.active_fix_label{
+		width: 50px;
+        padding-left: 8px;
+	}
+	
+	.period_amount_label{
+	 margin-left: 40px;	
+	}
+	
+	.tab_fix_personal_course
+	{
+		padding-left: 0px !important;
+		font-size: 13px !important;
+		margin-left: -9px;
+		text-align: center !important;
+	}
+	
+	.tab_fix_personal_course_sub
+	{
+		padding-left: 0px !important;
+		font-size: 12px;
+		margin-left: -9px;
+		text-align: center;
+	}
+	
+	.text_box_fix_evaluation{
+		padding-left:15px;
+		padding-right: 15px;
+	}
+	
+	.text_box_left_fix_evaluation{
+		padding-right: 15px;
+	}
+	
+		.topbar_left{
+	  width:30% !important;	
+	}
+	
+	.topbar_right{
+	  width:40% !important;	
+	}
+	
+	.iconSettings{
+		height: 58px;
+		width: 70px;
+	}
+	
+	.small_padding_fix
+	{
+	padding-left:0px;
+	padding-right:15px !important;
+	}
+	
+	.border_item_details{
+		border-right:1px solid #FFF;
+	}
+}
+
+
+@media (max-width: 992px){	
+	   .steppyULTabs li {
+		font-size: 11px !important;
+	}
+	
+	.steppyULTabs li.active a {
+		font-size: 11px !important;
+	}
+	
+	.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 9px 9px;
+} 
+	
+	.small_screen_zindex{
+		z-index:1 !important;
+	}
+}
+
+
+@media (max-width: 1023px){
+	.topbar_left{
+	  width:30% !important;	
+	}
+	
+	.topbar_right{
+	  width:34% !important;	
+	}
+	
+	.userimg{
+	display: none;
+	}
+
+    .fixWidth{
+        width: 195px !important;
+    }
+
+
+
+    .topbaricon img{
+        display: block;
+    }
+
+    .displaynone_678screen{
+        display: none;
+    }
+
+    .admin-dropdown {
+        padding: 19px 11px 10px 11px;
+        width: 60px;
+    }
+
+}
+
+
+@media (min-width: 768px)  and (max-device-width : 980px){   /*laptop size*/
+	.add_button_fix_low
+	{
+	margin-top:10px !important;
+	}
+	
+	.extendant_code_entry_button{
+	margin-top:10px;
+	}
+	
+	.padding-fix-small-screen{
+	padding-left:5px;
+	}
+	
+	.padding-fix-small-screen_options{
+	padding-left:10px;
+	}
+	
+	.margin_bottom_fix_small_screeens{
+	  margin-bottom:10px;
+	}
+
+    .displaynone_678screen{
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+
+    .screen767margin-bottom15{
+        margin-bottom: 15px;
+    }
+
+    .form-group.screen767margin-bottom0{
+        margin-bottom: 0px;
+    }
+
+    .screen767padding-left0{
+        padding-left: 0;
+    }
+}
+
+
+/*--------------------- Supun Styles ------------------------------------- */
+
+@media (min-width:1920px){
+    .section-normal-screens{
+        width: 50%;
+        float: left;
+    }
+    .section-large-screens{
+        width: 50%;
+        float: right;
+    }
+    .book-cover-section{
+        width: 20%
+    }
+    .book-detail-section{
+        width: 80%
+    }
+}
+
+/*********************************** media queris by supun *********************************************/
+
+@media (max-width: 991px){
+
+    .steppyULTabs li.active{
+        margin-bottom:0px;
+    }
+    .steppyULTabs li{
+        margin-bottom:5px;
+    }
+    li.active.form-current-step{
+       margin-bottom:3px; 
+    }
+    
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+    
+    .text-right-sm{
+        text-align: right;
+    }
+    
+    
+    .topbaricon{
+         padding: 20px 10px;   
+    }
+    .topbar-text{
+        display: none;
+    }
+   
+    .admin-dropdown {
+        padding: 9px 0px 10px 10px;
+        width: 70px;
+    }
+     .topbaricon img{
+    	display:inline;
+    }
+    .userimg{
+    	margin:0px;
+    }
+    .caret-topbar {
+        display: inline-block;
+	    color: #acabae;
+	    margin-left: 0px;
+	    margin-top: 5px;
+    }
+    
+    
+    .padding-right-sm5{
+        padding-right: 5px;
+    }
+    
+   
+    .pagination {
+        margin-bottom: 0px;
+        bottom: 0px;
+    }
+  
+    .margin-top-sm-10{
+        margin-top:10px;
+    }
+    
+  
+   .padding-top-sm-0{
+        padding-top:0px;
+   }
+    .padding-left-sm-0{
+        padding-left:0px;   
+    }
+    .padding-right-sm-0{
+        padding-right:0px;   
+    }
+    .margin-top-sm-0{
+        margin-top:0px;
+    }
+    .padding-sm-right0{
+        padding-right: 0px;
+    }
+    
+    .padding-sm-right15{
+        padding-right: 15px;
+    }
+    
+    .padding-sm-left15{
+        padding-left: 15px !important;
+    }
+    
+    
+    .margin-sm-bottom-10{
+        margin-bottom: 10px;
+    }
+    .text-left-sm{
+        text-align: left;   
+    }
+    .margin-right-sm-15{
+        margin-right:15px;
+    }
+   
+    .margin-top-sm-5{
+        margin-top: 5px;
+    }
+    .margin-bottom-sm-20{
+    	margin-bottom:20px;
+    }
+
+    .margin-bottom-sm-10{
+        margin-bottom: 10px;
+    }
+    .padding-sm-0{
+        padding:0px;
+    }
+    
+}
+
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    
+    .admin-dropdown, .topbaricon{
+        padding: 20px 15px;
+    }
+    
+	.topbaricon img{
+    	display:inline;
+    }
+    
+    .admin-dropdown {
+    	padding: 0px 10px 0px 11px;
+   	
+	}
+  .topbar-controls.topbaricon{
+         padding: 20px 0px;   
+
+    }
+    
+    .admin-dropdown {
+       
+        width: 200px;
+    }
+    
+
+	
+	.margin-bottom-md-20{
+		margin-bottom:20px;
+	}
+    
+    li.active.form-current-step > a{
+         border: none;   
+    }
+    li.form-next-step{
+        margin: 5px;
+    }
+   
+    
+    
+    .margin-right-md-15{
+        margin-right:15px;
+    }
+    
+   
+    
+    .margin-top-md-5{
+        margin-top: 5px;
+    }
+    
+        
+    .scrollxonly .pagination{
+    	bottom: 0px;
+    }
+    
+    .over-flow-scroll-x .pagination{
+    	bottom: 0px;
+    }
+    
+    
+    .padding-left-md-0{
+    	padding-left:0px;
+    }
+    
+    .margin-top-md-10{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+

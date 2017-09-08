@@ -1,0 +1,77 @@
+#route,th, td { 
+	white-space: nowrap; 
+}
+
+
+div.dataTables_wrapper {
+	width: 123%;
+}
+
+.dataTables_wrapper {
+	position: relative;
+	clear: both;
+	zoom: 1;
+}
+
+.dataTables_wrapper:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+.Scroll-for-datatable section {
+	width: auto;
+	overflow-x: scroll;
+	overflow-y: visible;
+}
+
+.fcsApprovSection {
+	margin-right: 500px;
+}
+
+.route th.headcol2 {
+	height: 56px;
+	background-color: #2a80b9;
+	margin: 0px;
+}
+
+.route .headcol2 {
+	border-left: 1px solid rgba(177, 175, 175, 0.17) !important;
+}
+
+.route .headcol2 {
+	right: 253px;
+	border-right: 1px solid #ddd !important;
+	height: 50px;
+}
+
+.route.table-bordered>tbody>tr>td {
+	border: none;
+	border-bottom: 1px solid #ddd;
+	color: #5a6673;
+}
+
+.fcsApprovSection .headcol2 {
+	width: 248px !important;
+}
+
+.route .headcol, .route .headcol1, .route .headcol2, .route .headcol3, .route .headcolx, .route .headcoly, .route .headcolz, .route .headcolzx, .route .headcolpop1, .route .headcolpop2, .route .headcolpop3, .route .headcolpop4 {
+	position: absolute;
+	margin-top: 0px;
+	top: auto;
+}
+
+.scroll-table {
+	background-color: #2a80b9;
+/*	box-shadow: 0px 2px 5px #ddd;*/
+}
+
+.route tr.odd.gradeA {
+background-color: #F9F9F9;
+}
+
+.route tr.even.gradeA {
+background-color: #FFFFFF;
+}

@@ -1,0 +1,25 @@
+@media screen and (min-width:0\0) {  
+    /* IE9 and IE10 rule sets go here */  
+    
+    .search-field{
+        width: 500px;
+    }
+	
+	input::-ms-clear, input::-ms-reveal{
+		display:none;
+	}
+	
+	input:focus:invalid:focus{
+		border-color:#FF6C60;
+	}
+	
+	.defaultcourse-buttons{
+		margin-left: 17%;
+		margin-right: 0%;
+	}
+	
+	:-ms-input-placeholder { /* Internet Explorer 10+ */
+		color: #FFF;
+	}
+	
+}
